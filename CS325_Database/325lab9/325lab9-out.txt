@@ -1,0 +1,133 @@
+Emilyo Garcia
+===== Lab Query 1 =====
+
+DEP DEPT_NAME       DEPT_LOC                                                    
+--- --------------- ---------------                                             
+400 Operations      Boston                                                      
+300 Sales           Chicago                                                     
+200 Research        Dallas                                                      
+500 Management      New York                                                    
+100 Accounting      New York                                                    
+
+===== Lab Query 2 =====
+
+DEP DEPT_NAME       DEPT_LOC                                                    
+--- --------------- ---------------                                             
+100 Accounting      New York                                                    
+500 Management      New York                                                    
+400 Operations      Boston                                                      
+200 Research        Dallas                                                      
+300 Sales           Chicago                                                     
+
+===== Lab Query 3 =====
+
+EMPL_LAST_NAME  DEPT_NAME           SALARY HIREDATE                             
+--------------- --------------- ---------- ---------                            
+Raimi           Accounting            2450 09-JUN-12                            
+Miller          Accounting            1300 23-JAN-16                            
+King            Management            5000 17-NOV-11                            
+Adams           Operations            1100 23-SEP-18                            
+Jones           Research              2975 02-APR-12                            
+Ford            Research              3000 03-DEC-12                            
+Smith           Research               800 17-DEC-12                            
+Scott           Research              3000 09-NOV-18                            
+Blake           Sales                 2850 01-MAY-13                            
+James           Sales                  950 03-DEC-17                            
+Michaels        Sales                 1600 20-FEB-18                            
+
+EMPL_LAST_NAME  DEPT_NAME           SALARY HIREDATE                             
+--------------- --------------- ---------- ---------                            
+Martin          Sales                 1250 28-SEP-18                            
+Ward            Sales                 1250 22-FEB-19                            
+Turner          Sales                 1500 08-SEP-19                            
+
+14 rows selected.
+
+===== Lab Query 4 =====
+
+EMPL_LAST_NAME  DEPT_NAME           SALARY HIREDATE                             
+--------------- --------------- ---------- ---------                            
+King            Management            5000 17-NOV-11                            
+Ford            Research              3000 03-DEC-12                            
+Scott           Research              3000 09-NOV-18                            
+Jones           Research              2975 02-APR-12                            
+Blake           Sales                 2850 01-MAY-13                            
+Raimi           Accounting            2450 09-JUN-12                            
+Michaels        Sales                 1600 20-FEB-18                            
+Turner          Sales                 1500 08-SEP-19                            
+Miller          Accounting            1300 23-JAN-16                            
+Martin          Sales                 1250 28-SEP-18                            
+Ward            Sales                 1250 22-FEB-19                            
+
+EMPL_LAST_NAME  DEPT_NAME           SALARY HIREDATE                             
+--------------- --------------- ---------- ---------                            
+Adams           Operations            1100 23-SEP-18                            
+James           Sales                  950 03-DEC-17                            
+Smith           Research               800 17-DEC-12                            
+
+14 rows selected.
+
+===== Lab Query 5 =====
+
+MGR  MIN(HIRED                                                                  
+---- ---------                                                                  
+     17-NOV-11                                                                  
+7902 17-DEC-12                                                                  
+7839 02-APR-12                                                                  
+7566 03-DEC-12                                                                  
+7698 03-DEC-17                                                                  
+7782 23-JAN-16                                                                  
+7788 23-SEP-18                                                                  
+
+7 rows selected.
+
+===== Lab Query 6 =====
+
+MGR  MIN(HIRED                                                                  
+---- ---------                                                                  
+7698 03-DEC-17                                                                  
+7782 23-JAN-16                                                                  
+7788 23-SEP-18                                                                  
+
+===== Lab Query 7 =====
+
+DEPT_NAME         COUNT(*)                                                      
+--------------- ----------                                                      
+Management               1                                                      
+Operations               1                                                      
+Accounting               2                                                      
+Research                 4                                                      
+Sales                    6                                                      
+
+===== Lab Query 8 =====
+
+DEPT_NAME         COUNT(*)                                                      
+--------------- ----------                                                      
+Operations               1                                                      
+Accounting               2                                                      
+Sales                    6                                                      
+
+===== Lab Query 9 =====
+
+EMPL_LAST_NAME  JOB_TITLE  COMMISSION                                           
+--------------- ---------- ----------                                           
+Turner          Sales               0                                           
+Michaels        Sales             300                                           
+Ward            Sales             500                                           
+Martin          Sales            1400                                           
+Ford            Analyst                                                         
+Smith           Clerk                                                           
+Miller          Clerk                                                           
+Jones           Manager                                                         
+Raimi           Manager                                                         
+Scott           Analyst                                                         
+King            President                                                       
+
+EMPL_LAST_NAME  JOB_TITLE  COMMISSION                                           
+--------------- ---------- ----------                                           
+Adams           Clerk                                                           
+James           Clerk                                                           
+Blake           Manager                                                         
+
+14 rows selected.
+

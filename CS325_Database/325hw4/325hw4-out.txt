@@ -1,0 +1,213 @@
+===== Homework - Problem 2 =====
+Emilyo Garcia
+===== Problem 2-1 =====
+
+VID_ID VID_FOR                                                                  
+------ -------                                                                  
+120011 Blu-Ray                                                                  
+120021 Blu-Ray                                                                  
+130061 DVD                                                                      
+210011 HD-DVD                                                                   
+220013 Blu-Ray                                                                  
+220021 Blu-Ray                                                                  
+320011 Blu-Ray                                                                  
+320021 Blu-Ray                                                                  
+320022 Blu-Ray                                                                  
+320031 Blu-Ray                                                                  
+320032 Blu-Ray                                                                  
+
+VID_ID VID_FOR                                                                  
+------ -------                                                                  
+210031 HD-DVD                                                                   
+220032 Blu-Ray                                                                  
+210041 HD-DVD                                                                   
+220042 Blu-Ray                                                                  
+220051 Blu-Ray                                                                  
+220061 Blu-Ray                                                                  
+220062 Blu-Ray                                                                  
+220063 Blu-Ray                                                                  
+420011 Blu-Ray                                                                  
+420021 Blu-Ray                                                                  
+420031 Blu-Ray                                                                  
+
+VID_ID VID_FOR                                                                  
+------ -------                                                                  
+120041 Blu-Ray                                                                  
+120051 Blu-Ray                                                                  
+410041 HD-DVD                                                                   
+420042 Blu-Ray                                                                  
+220071 Blu-Ray                                                                  
+220072 Blu-Ray                                                                  
+
+28 rows selected.
+
+===== Problem 2-2 =====
+
+CLIENT_LNAME    CLIENT_FNAME                                                    
+--------------- ---------------                                                 
+Beta            Bob                                                             
+Carlos          Ann                                                             
+Epsilon         Emma                                                            
+
+===== Problem 2-3 =====
+
+Movies                                           Directors                      
+------------------------------------------------ ------------------------------ 
+Gone with the Wind (1939)                        Fleming                        
+It's a Wonderful Life (1947)                     Capra                          
+The Muppet Movie (1979)                          Frawley                        
+Indiana Jones and the Temple of Doom (1984)      Spielberg                      
+Indiana Jones and the Last Crusade (1989)        Spielberg                      
+Babe (1995)                                      Noonan                         
+Toy Story (1995)                                 Lasseter                       
+Toy Story 2 (1999)                               Lasseter                       
+Star Wars (1977)                                 Lucas                          
+The Empire Strikes Back (1980)                   Kershner                       
+Return of the Jedi (1983)                        Marquand                       
+
+Movies                                           Directors                      
+------------------------------------------------ ------------------------------ 
+The Phantom Menace (1999)                        Lucas                          
+One Flew Over the Cuckoo's Nest (1975)           Forman                         
+Midnight Cowboy (1969)                           Schlesinger                    
+Clockwork Orange (1971)                          Kubrick                        
+All About Eve (1950)                             Mankiewicz                     
+The Philadelphia Story (1940)                    Cukor                          
+Fatal Attraction (1987)                          Lyne                           
+The Matrix (1999)                                Wachowski                      
+The Blues Brothers (1980)                        Landis                         
+
+20 rows selected.
+
+===== Problem 2-4 =====
+
+CLIENT_LNAME    CLIENT_FNAME    CLIENT_P                                        
+--------------- --------------- --------                                        
+Alpha           Ann             111-1111                                        
+Beta            Bob             222-2222                                        
+Carlos          Ann             333-3333                                        
+Beta            Edie            555-5555                                        
+Epsilon         Emma            666-6666                                        
+Greta           Gail            888-8888                                        
+
+6 rows selected.
+
+===== Problem 2-5 =====
+
+MOVIE_TITLE                                                                     
+----------------------------------------                                        
+The Muppet Movie                                                                
+The Blues Brothers                                                              
+
+===== Problem 2-6 =====
+Enter value for movie_director_lname: 'Spielberg'
+old   3: where movie_director_lname = &movie_director_lname
+new   3: where movie_director_lname = 'Spielberg'
+
+MOVIE_TITLE                              MOVI                                   
+---------------------------------------- ----                                   
+Indiana Jones and the Temple of Doom     1984                                   
+Indiana Jones and the Last Crusade       1989                                   
+
+===== Problem 2-7 =====
+
+CLIE CLIENT_LNAME    CLIENT_FNAME    CLIENT_P CLIENT_CREDIT_RTG CLI             
+---- --------------- --------------- -------- ----------------- ---             
+7777 Feta            Frank           777-7777                 0 500             
+2222 Beta            Bob             222-2222               1.2 200             
+6666 Epsilon         Emma            666-6666               2.1 400             
+9999 Harpo           Harry           999-9999               3.3 100             
+4444 Delta           David           222-2222               3.4 400             
+3333 Carlos          Ann             333-3333               3.8 300             
+8888 Greta           Gail            888-8888               4.4 200             
+1111 Alpha           Ann             111-1111               4.9 100             
+5555 Beta            Edie            555-5555                 5                 
+
+9 rows selected.
+
+
+CLIE CLIENT_LNAME    CLIENT_FNAME    CLIENT_P CLIENT_CREDIT_RTG CLI             
+---- --------------- --------------- -------- ----------------- ---             
+5555 Beta            Edie            555-5555                 5                 
+1111 Alpha           Ann             111-1111               4.9 100             
+8888 Greta           Gail            888-8888               4.4 200             
+3333 Carlos          Ann             333-3333               3.8 300             
+4444 Delta           David           222-2222               3.4 400             
+9999 Harpo           Harry           999-9999               3.3 100             
+6666 Epsilon         Emma            666-6666               2.1 400             
+2222 Beta            Bob             222-2222               1.2 200             
+7777 Feta            Frank           777-7777                 0 500             
+
+9 rows selected.
+
+===== Problem 2-8 =====
+
+CATEGORY_N MOVIE_TITLE                              MOVIE                       
+---------- ---------------------------------------- -----                       
+Drama      Clockwork Orange                         A                           
+Drama      Midnight Cowboy                          A                           
+Family     Babe                                     G                           
+Family     The Muppet Movie                         G                           
+Family     Toy Story                                G                           
+Family     Toy Story 2                              G                           
+Classic    All About Eve                            G                           
+Classic    Gone with the Wind                       G                           
+Classic    It's a Wonderful Life                    G                           
+Classic    The Philadelphia Story                   G                           
+Action     Indiana Jones and the Temple of Doom     PG                          
+
+CATEGORY_N MOVIE_TITLE                              MOVIE                       
+---------- ---------------------------------------- -----                       
+Action     Return of the Jedi                       PG                          
+Action     Star Wars                                PG                          
+Action     The Empire Strikes Back                  PG                          
+Action     The Phantom Menace                       PG                          
+Action     Indiana Jones and the Last Crusade       PG-13                       
+Drama      Fatal Attraction                         R                           
+Drama      One Flew Over the Cuckoo's Nest          R                           
+Comedy     The Blues Brothers                       R                           
+Action     The Matrix                               R                           
+
+20 rows selected.
+
+===== Problem 2-9 =====
+
+CLIENT_LNAME    CLIENT_P CLIENT_CREDIT_RTG                                      
+--------------- -------- -----------------                                      
+Epsilon         666-6666               2.1                                      
+Beta            222-2222               1.2                                      
+Feta            777-7777                 0                                      
+
+===== Problem 2-10 =====
+
+VID_FOR        QTY AVG RENTAL PRICE                                             
+------- ---------- ----------------                                             
+Blu-Ray         23             2.39                                             
+DVD             15       4.85666667                                             
+HD-DVD           4             1.14                                             
+
+===== Problem 2-11 =====
+
+VID_RENTAL_PRICE   QUANTITY                                                     
+---------------- ----------                                                     
+            5.99          6                                                     
+            4.99          3                                                     
+            3.99          5                                                     
+            2.99          8                                                     
+            2.19          6                                                     
+            1.99         10                                                     
+            1.29          2                                                     
+             .99          2                                                     
+
+8 rows selected.
+
+===== Problem 2-12 =====
+
+VID_RENTAL_PRICE   QUANTITY                                                     
+---------------- ----------                                                     
+            5.99          6                                                     
+            3.99          5                                                     
+            2.99          8                                                     
+            2.19          6                                                     
+            1.99         10                                                     
+

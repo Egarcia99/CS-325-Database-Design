@@ -1,0 +1,149 @@
+
+Emilyo Garcia
+
+drop table return
+           *
+ERROR at line 1:
+ORA-02449: unique/primary keys in table referenced by foreign keys 
+
+
+create table return
+             *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object 
+
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ RETURN_NAME                               NOT NULL VARCHAR2(39)
+ RETURN_ITEM                                        VARCHAR2(50)
+ RETURN_PRICE                                       NUMBER(6,2)
+ RETURN_NUM                                         NUMBER(38)
+ RETURN_LAST                                        DATE
+
+insert into return
+*
+ERROR at line 1:
+ORA-00001: unique constraint (EG347.SYS_C001716213) violated 
+
+
+insert into return
+*
+ERROR at line 1:
+ORA-00001: unique constraint (EG347.SYS_C001716213) violated 
+
+
+insert into return
+*
+ERROR at line 1:
+ORA-00001: unique constraint (EG347.SYS_C001716213) violated 
+
+
+insert into return
+*
+ERROR at line 1:
+ORA-00001: unique constraint (EG347.SYS_C001716213) violated 
+
+
+insert into return
+*
+ERROR at line 1:
+ORA-00001: unique constraint (EG347.SYS_C001716213) violated 
+
+
+insert into return
+*
+ERROR at line 1:
+ORA-00001: unique constraint (EG347.SYS_C001716213) violated 
+
+
+
+RETURN_NAME                                                                     
+---------------------------------------                                         
+RETURN_ITEM                                        RETURN_PRICE RETURN_NUM      
+-------------------------------------------------- ------------ ----------      
+RETURN_LA                                                                       
+---------                                                                       
+Bill                                                                            
+hose                                                         10          2      
+03-SEP-21                                                                       
+                                                                                
+Joe                                                                             
+wheel                                                     150.5          4      
+15-AUG-20                                                                       
+
+RETURN_NAME                                                                     
+---------------------------------------                                         
+RETURN_ITEM                                        RETURN_PRICE RETURN_NUM      
+-------------------------------------------------- ------------ ----------      
+RETURN_LA                                                                       
+---------                                                                       
+                                                                                
+Timmy                                                                           
+boat                                                       2500         10      
+27-OCT-02                                                                       
+                                                                                
+Bob                                                                             
+car                                                         350          1      
+
+RETURN_NAME                                                                     
+---------------------------------------                                         
+RETURN_ITEM                                        RETURN_PRICE RETURN_NUM      
+-------------------------------------------------- ------------ ----------      
+RETURN_LA                                                                       
+---------                                                                       
+30-AUG-12                                                                       
+                                                                                
+Connie                                                                          
+coat                                                        175          5      
+22-SEP-22                                                                       
+                                                                                
+Oscar                                                                           
+
+RETURN_NAME                                                                     
+---------------------------------------                                         
+RETURN_ITEM                                        RETURN_PRICE RETURN_NUM      
+-------------------------------------------------- ------------ ----------      
+RETURN_LA                                                                       
+---------                                                                       
+hat                                                          15          7      
+01-SEP-21                                                                       
+                                                                                
+
+6 rows selected.
+
+
+Table dropped.
+
+
+Table created.
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ RETURN_NAME                                        VARCHAR2(39)
+ LOAN_START                                         DATE
+ LOAN_RETURN                                        DATE
+ LOAN_ID                                   NOT NULL NUMBER(38)
+
+
+1 row created.
+
+
+1 row created.
+
+insert into loans
+            *
+ERROR at line 1:
+ORA-00947: not enough values 
+
+
+
+1 row created.
+
+
+RETURN_NAME                             LOAN_STAR LOAN_RETU    LOAN_ID          
+--------------------------------------- --------- --------- ----------          
+Bill                                    02-SEP-17 09-SEP-18          3          
+Bob                                     29-SEP-20 29-SEP-22          5          
+Connie                                  15-AUG-01 15-AUG-22          8          
+

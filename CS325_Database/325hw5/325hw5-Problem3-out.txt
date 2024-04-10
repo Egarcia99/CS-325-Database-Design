@@ -1,0 +1,190 @@
+Homework 5 - Problem 3
+Emilyo Garcia
+===== Problem 3-2 =====
+
+MOVIE_TITLE                                                                     
+----------------------------------------                                        
+The Philadelphia Story                                                          
+The Matrix                                                                      
+The Blues Brothers                                                              
+Return of the Jedi                                                              
+Midnight Cowboy                                                                 
+Indiana Jones and the Last Crusade                                              
+Fatal Attraction                                                                
+Clockwork Orange                                                                
+Babe                                                                            
+All About Eve                                                                   
+
+10 rows selected.
+
+===== Problem 3-3 =====
+
+VID_ID VID_RENTAL_PRICE                                                         
+------ ----------------                                                         
+230064             5.99                                                         
+230073             5.99                                                         
+230074             5.99                                                         
+330033             5.99                                                         
+330034             5.99                                                         
+230043             3.99                                                         
+230052             3.99                                                         
+330012             3.99                                                         
+220061             2.99                                                         
+220063             2.99                                                         
+220071             2.99                                                         
+
+VID_ID VID_RENTAL_PRICE                                                         
+------ ----------------                                                         
+220072             2.99                                                         
+320031             2.99                                                         
+220021             2.19                                                         
+420021             2.19                                                         
+420031             2.19                                                         
+420042             2.19                                                         
+120021             1.99                                                         
+120041             1.99                                                         
+120051             1.99                                                         
+130061             1.99                                                         
+220032             1.99                                                         
+
+VID_ID VID_RENTAL_PRICE                                                         
+------ ----------------                                                         
+220042             1.99                                                         
+220051             1.99                                                         
+320011             1.99                                                         
+320021             1.99                                                         
+320022             1.99                                                         
+210041             1.29                                                         
+410041             1.29                                                         
+210011              .99                                                         
+210031              .99                                                         
+
+31 rows selected.
+
+===== Problem 3-4 =====
+
+VID_ID NUM_RENTALS                                                              
+------ -----------                                                              
+120011           4                                                              
+130012           3                                                              
+130031           3                                                              
+210011           2                                                              
+210031           2                                                              
+130022           1                                                              
+210041           1                                                              
+220013           1                                                              
+220062           1                                                              
+230012           1                                                              
+230033           1                                                              
+
+VID_ID NUM_RENTALS                                                              
+------ -----------                                                              
+320032           1                                                              
+330023           1                                                              
+420011           1                                                              
+120021           0                                                              
+120041           0                                                              
+120051           0                                                              
+130061           0                                                              
+220021           0                                                              
+220032           0                                                              
+220042           0                                                              
+220051           0                                                              
+
+VID_ID NUM_RENTALS                                                              
+------ -----------                                                              
+220061           0                                                              
+220063           0                                                              
+220071           0                                                              
+220072           0                                                              
+230043           0                                                              
+230052           0                                                              
+230064           0                                                              
+230073           0                                                              
+230074           0                                                              
+320011           0                                                              
+320021           0                                                              
+
+VID_ID NUM_RENTALS                                                              
+------ -----------                                                              
+320022           0                                                              
+320031           0                                                              
+330012           0                                                              
+330033           0                                                              
+330034           0                                                              
+410041           0                                                              
+420021           0                                                              
+420031           0                                                              
+420042           0                                                              
+
+42 rows selected.
+
+===== Problem 3-5 =====
+
+CLIENT_LNAME    CLIENT_CREDIT_RTG                                               
+--------------- -----------------                                               
+Feta                            0                                               
+Beta                          1.2                                               
+Epsilon                       2.1                                               
+Harpo                         3.3                                               
+Delta                         3.4                                               
+Carlos                        3.8                                               
+Greta                         4.4                                               
+Alpha                         4.9                                               
+Beta                            5                                               
+
+9 rows selected.
+
+
+3 rows updated.
+
+
+CLIENT_LNAME    CLIENT_CREDIT_RTG                                               
+--------------- -----------------                                               
+Feta                            0                                               
+Beta                          1.2                                               
+Epsilon                       2.1                                               
+Harpo                         3.6                                               
+Delta                         3.7                                               
+Carlos                        4.2                                               
+Greta                         4.4                                               
+Alpha                         4.9                                               
+Beta                            5                                               
+
+9 rows selected.
+
+===== Problem 3-6 =====
+
+  COUNT(*)                                                                      
+----------                                                                      
+        42                                                                      
+
+
+28 rows deleted.
+
+
+VID_ID VID_FOR VID_PURCH VID_RENTAL_PRICE MOVIE                                 
+------ ------- --------- ---------------- -----                                 
+120011 Blu-Ray 11-JAN-10             2.99 10001                                 
+130012 DVD     22-FEB-11             4.99 10001                                 
+130022 DVD     04-MAR-12             5.99 10002                                 
+130031 DVD     22-FEB-11             4.99 10003                                 
+210011 HD-DVD  05-MAY-09              .99 20001                                 
+230012 DVD     01-JAN-10             3.99 20001                                 
+220013 Blu-Ray 05-APR-08             2.19 20001                                 
+330023 DVD     07-JUN-09             4.99 30002                                 
+320032 Blu-Ray 01-DEC-11             2.99 30003                                 
+210031 HD-DVD  05-MAY-08              .99 20003                                 
+230033 DVD     17-AUG-10             3.99 20003                                 
+
+VID_ID VID_FOR VID_PURCH VID_RENTAL_PRICE MOVIE                                 
+------ ------- --------- ---------------- -----                                 
+210041 HD-DVD  05-MAY-08             1.29 20004                                 
+220062 Blu-Ray 01-DEC-11             2.99 20006                                 
+420011 Blu-Ray 04-OCT-10             2.19 40001                                 
+
+14 rows selected.
+
+
+Rollback complete.
+

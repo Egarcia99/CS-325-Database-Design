@@ -1,0 +1,86 @@
+Emilyo Garcia and Emily Funk
+===== Lab Query 1 =====
+
+EMPL_LAST_NAME  HIREDATE                                                        
+--------------- ---------                                                       
+Jones           02-APR-12                                                       
+Blake           01-MAY-13                                                       
+
+===== Lab Query 2 =====
+
+HIREDATE                                                                        
+---------                                                                       
+17-NOV-11                                                                       
+09-JUN-12                                                                       
+23-JAN-16                                                                       
+
+===== Lab Query 3 =====
+
+EMPL_LAST_NAME  HIREDATE                                                        
+--------------- ---------                                                       
+Michaels        20-FEB-18                                                       
+Ward            22-FEB-19                                                       
+Martin          28-SEP-18                                                       
+Scott           09-NOV-18                                                       
+Turner          08-SEP-19                                                       
+Adams           23-SEP-18                                                       
+James           03-DEC-17                                                       
+Miller          23-JAN-16                                                       
+
+8 rows selected.
+
+===== Lab Query 4 =====
+
+Employee        Department (Location)                                           
+--------------- ---------------------------------                               
+King            Management (New York)                                           
+Jones           Research (Dallas)                                               
+Blake           Sales (Chicago)                                                 
+Raimi           Accounting (New York)                                           
+Ford            Research (Dallas)                                               
+Smith           Research (Dallas)                                               
+Michaels        Sales (Chicago)                                                 
+Ward            Sales (Chicago)                                                 
+Martin          Sales (Chicago)                                                 
+Scott           Research (Dallas)                                               
+Turner          Sales (Chicago)                                                 
+
+Employee        Department (Location)                                           
+--------------- ---------------------------------                               
+Adams           Operations (Boston)                                             
+James           Sales (Chicago)                                                 
+Miller          Accounting (New York)                                           
+
+14 rows selected.
+
+===== Lab Query 5 =====
+
+EMPL_LAST_NAME  JOB_TITLE  HIREDATE                                             
+--------------- ---------- ---------                                            
+Adams           Clerk      23-SEP-18                                            
+Ford            Analyst    03-DEC-12                                            
+Jones           Manager    02-APR-12                                            
+Martin          Sales      28-SEP-18                                            
+Michaels        Sales      20-FEB-18                                            
+Scott           Analyst    09-NOV-18                                            
+Smith           Clerk      17-DEC-12                                            
+Turner          Sales      08-SEP-19                                            
+Ward            Sales      22-FEB-19                                            
+
+9 rows selected.
+
+===== Lab Query 6 =====
+
+EMPL_LAST_NAME                                                                  
+---------------                                                                 
+Michaels                                                                        
+Ward                                                                            
+Martin                                                                          
+Scott                                                                           
+Turner                                                                          
+Adams                                                                           
+James                                                                           
+Miller                                                                          
+
+8 rows selected.
+

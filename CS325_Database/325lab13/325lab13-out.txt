@@ -1,0 +1,291 @@
+===== Lab Problem 1 =====
+
+DEPT_NAME           SALARY                                                      
+--------------- ----------                                                      
+Accounting            2450                                                      
+Accounting            1300                                                      
+Management            5000                                                      
+Operations            1100                                                      
+Research              3000                                                      
+Research              3000                                                      
+Research               800                                                      
+Research              2975                                                      
+Sales                  950                                                      
+Sales                 1500                                                      
+Sales                 1250                                                      
+Sales                 1250                                                      
+Sales                 2850                                                      
+Sales                 1600                                                      
+
+14 rows selected.
+
+===== Lab Problem 2 =====
+
+DEPT_NAME           SALARY                                                      
+--------------- ----------                                                      
+Accounting            2450                                                      
+Accounting            1300                                                      
+Management            5000                                                      
+Operations            1100                                                      
+Research              3000                                                      
+Research              3000                                                      
+Research               800                                                      
+Research              2975                                                      
+Sales                  950                                                      
+Sales                 1500                                                      
+Sales                 1250                                                      
+Sales                 1250                                                      
+Sales                 2850                                                      
+Sales                 1600                                                      
+===== Lab Problem 3 =====
+
+Department     SALARY                                                           
+---------- ----------                                                           
+Accounting       2450                                                           
+Accounting       1300                                                           
+Management       5000                                                           
+Operations       1100                                                           
+Research         3000                                                           
+Research         3000                                                           
+Research          800                                                           
+Research         2975                                                           
+Sales             950                                                           
+Sales            1500                                                           
+Sales            1250                                                           
+Sales            1250                                                           
+Sales            2850                                                           
+Sales            1600                                                           
+===== Lab Problem 2 =====
+
+Department     SALARY                                                           
+---------- ----------                                                           
+Accounting       2450                                                           
+Accounting       1300                                                           
+Management       5000                                                           
+Operations       1100                                                           
+Research         3000                                                           
+Research         3000                                                           
+Research          800                                                           
+Research         2975                                                           
+Sales             950                                                           
+Sales            1500                                                           
+Sales            1250                                                           
+Sales            1250                                                           
+Sales            2850                                                           
+Sales            1600                                                           
+===== Lab Problem 3 =====
+
+Department     SALARY                                                           
+---------- ----------                                                           
+Accounting       2450                                                           
+Accounting       1300                                                           
+Management       5000                                                           
+Operations       1100                                                           
+Research         3000                                                           
+Research         3000                                                           
+Research          800                                                           
+Research         2975                                                           
+Sales             950                                                           
+Sales            1500                                                           
+Sales            1250                                                           
+Sales            1250                                                           
+Sales            2850                                                           
+Sales            1600                                                           
+===== Lab Problem 4 =====
+
+               “Dept                                                          
+Department Salaries”                                                          
+---------- -----------                                                          
+Accounting    2,450.00                                                          
+Accounting    1,300.00                                                          
+Management    5,000.00                                                          
+Operations    1,100.00                                                          
+Research      3,000.00                                                          
+Research      3,000.00                                                          
+Research        800.00                                                          
+Research      2,975.00                                                          
+Sales           950.00                                                          
+Sales         1,500.00                                                          
+Sales         1,250.00                                                          
+Sales         1,250.00                                                          
+Sales         2,850.00                                                          
+Sales         1,600.00                                                          
+===== Lab Problem 5 =====
+
+               “Dept                                                          
+Department Salaries”                                                          
+---------- -----------                                                          
+Accounting    2,450.00                                                          
+              1,300.00                                                          
+                                                                                
+Management    5,000.00                                                          
+                                                                                
+Operations    1,100.00                                                          
+                                                                                
+Research      3,000.00                                                          
+              3,000.00                                                          
+                800.00                                                          
+              2,975.00                                                          
+                                                                                
+Sales           950.00                                                          
+              1,500.00                                                          
+              1,250.00                                                          
+              1,250.00                                                          
+              2,850.00                                                          
+              1,600.00                                                          
+                                                                                
+===== Lab Problem 6 =====
+
+               “Dept                                                          
+Department Salaries”                                                          
+---------- -----------                                                          
+Accounting    2,450.00                                                          
+              1,300.00                                                          
+********** -----------                                                          
+avg           1,875.00                                                          
+                                                                                
+Management    5,000.00                                                          
+********** -----------                                                          
+avg           5,000.00                                                          
+                                                                                
+Operations    1,100.00                                                          
+********** -----------                                                          
+avg           1,100.00                                                          
+                                                                                
+Research      3,000.00                                                          
+              3,000.00                                                          
+                800.00                                                          
+              2,975.00                                                          
+********** -----------                                                          
+avg           2,443.75                                                          
+                                                                                
+Sales           950.00                                                          
+              1,500.00                                                          
+              1,250.00                                                          
+              1,250.00                                                          
+              2,850.00                                                          
+              1,600.00                                                          
+********** -----------                                                          
+avg           1,566.67                                                          
+                                                                                
+===== Lab Problem 7 =====
+
+“DepartmentAverageSalaries”                                                 
+               “Dept                                                          
+Department Salaries”                                                          
+---------- -----------                                                          
+Accounting    2,450.00                                                          
+              1,300.00                                                          
+********** -----------                                                          
+avg           1,875.00                                                          
+                                                                                
+Management    5,000.00                                                          
+********** -----------                                                          
+avg           5,000.00                                                          
+                                                                                
+Operations    1,100.00                                                          
+********** -----------                                                          
+avg           1,100.00                                                          
+                                                                                
+Research      3,000.00                                                          
+              3,000.00                                                          
+                800.00                                                          
+              2,975.00                                                          
+********** -----------                                                          
+avg           2,443.75                                                          
+                                                                                
+Sales           950.00                                                          
+              1,500.00                                                          
+              1,250.00                                                          
+              1,250.00                                                          
+              2,850.00                                                          
+              1,600.00                                                          
+********** -----------                                                          
+avg           1,566.67                                                          
+                                                                                
+===== Lab Problem 8 =====
+
+“DepartmentAverageSalaries”                                                 
+                                                        “Dept                 
+EMPL EMPL_LAST_NAME  Position        MGR  HIREDATE  Salaries” COMMISSION      
+---- --------------- --------------- ---- --------- ----------- ----------      
+Department                                                                      
+----------                                                                      
+7902 Ford            Analyst         7566 03-DEC-12    3,000.00                 
+200                                                                             
+                                                                                
+7788 Scott                           7566 09-NOV-18    3,000.00                 
+200                                                                             
+                                                                                
+                                                                                
+7369 Smith           Clerk           7902 17-DEC-12      800.00                 
+200                                                                             
+                                                                                
+7934 Miller                          7782 23-JAN-16    1,300.00                 
+100                                                                             
+                                                                                
+7900 James                           7698 03-DEC-17      950.00                 
+300                                                                             
+                                                                                
+7876 Adams                           7788 23-SEP-18    1,100.00                 
+400                                                                             
+                                                                                
+                                                                                
+7566 Jones           Manager         7839 02-APR-12    2,975.00                 
+200                                                                             
+                                                                                
+7782 Raimi                           7839 09-JUN-12    2,450.00                 
+100                                                                             
+                                                                                
+7698 Blake                           7839 01-MAY-13    2,850.00                 
+300                                                                             
+                                                                                
+                                                                                
+7839 King            President            17-NOV-11    5,000.00                 
+500                                                                             
+                                                                                
+                                                                                
+7499 Michaels        Sales           7698 20-FEB-18    1,600.00        300      
+300                                                                             
+                                                                                
+7654 Martin                          7698 28-SEP-18    1,250.00       1400      
+300                                                                             
+                                                                                
+7521 Ward                            7698 22-FEB-19    1,250.00        500      
+300                                                                             
+                                                                                
+
+“DepartmentAverageSalaries”                                                 
+                                                        “Dept                 
+EMPL EMPL_LAST_NAME  Position        MGR  HIREDATE  Salaries” COMMISSION      
+---- --------------- --------------- ---- --------- ----------- ----------      
+Department                                                                      
+----------                                                                      
+7844 Turner          Sales           7698 08-SEP-19    1,500.00          0      
+300                                                                             
+                                                                                
+                                                                                
+===== Lab Problem 9 =====
+
+EMPL EMPL_LAST_NAME  JOB_TITLE  MGR  HIREDATE      SALARY COMMISSION DEP        
+---- --------------- ---------- ---- --------- ---------- ---------- ---        
+7902 Ford            Analyst    7566 03-DEC-12       3000            200        
+7788 Scott           Analyst    7566 09-NOV-18       3000            200        
+7369 Smith           Clerk      7902 17-DEC-12        800            200        
+7934 Miller          Clerk      7782 23-JAN-16       1300            100        
+7900 James           Clerk      7698 03-DEC-17        950            300        
+7876 Adams           Clerk      7788 23-SEP-18       1100            400        
+7566 Jones           Manager    7839 02-APR-12       2975            200        
+7782 Raimi           Manager    7839 09-JUN-12       2450            100        
+7698 Blake           Manager    7839 01-MAY-13       2850            300        
+7839 King            President       17-NOV-11       5000            500        
+7499 Michaels        Sales      7698 20-FEB-18       1600        300 300        
+
+EMPL EMPL_LAST_NAME  JOB_TITLE  MGR  HIREDATE      SALARY COMMISSION DEP        
+---- --------------- ---------- ---- --------- ---------- ---------- ---        
+7654 Martin          Sales      7698 28-SEP-18       1250       1400 300        
+7521 Ward            Sales      7698 22-FEB-19       1250        500 300        
+7844 Turner          Sales      7698 08-SEP-19       1500          0 300        
+
+14 rows selected.
+

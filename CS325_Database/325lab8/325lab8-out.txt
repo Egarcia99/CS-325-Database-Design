@@ -1,0 +1,74 @@
+Emilyo Garcia
+===== Lab Query 1 =====
+
+DEPT_NAME                                                                       
+---------------                                                                 
+Research                                                                        
+Management                                                                      
+
+===== Lab Query 2 =====
+
+EMPL_LAST_NAME                                                                  
+---------------                                                                 
+Ward                                                                            
+Turner                                                                          
+
+===== Lab Query 3 =====
+Enter value for dept_name: 'Research'
+old   6: 		  and dept_name = &dept_name)
+new   6: 		  and dept_name = 'Research')
+
+EMPL_LAST_NAME  JOB_TITLE                                                       
+--------------- ----------                                                      
+Scott           Analyst                                                         
+Jones           Manager                                                         
+Ford            Analyst                                                         
+Smith           Clerk                                                           
+
+===== Lab Query 4 =====
+
+Employee Salaries                                                               
+-----------------------------------------------------------                     
+King - $5000                                                                    
+Jones - $2975                                                                   
+Blake - $2850                                                                   
+Raimi - $2450                                                                   
+Ford - $3000                                                                    
+Smith - $800                                                                    
+Michaels - $1600                                                                
+Ward - $1250                                                                    
+Martin - $1250                                                                  
+Scott - $3000                                                                   
+Turner - $1500                                                                  
+
+Employee Salaries                                                               
+-----------------------------------------------------------                     
+Adams - $1100                                                                   
+James - $950                                                                    
+Miller - $1300                                                                  
+
+14 rows selected.
+
+===== Lab Query 5 =====
+
+EMPL_LAST_NAME                                                                  
+---------------                                                                 
+Raimi                                                                           
+
+===== Lab Query 6 =====
+
+        35                                                                      
+----------                                                                      
+        35                                                                      
+        35                                                                      
+        35                                                                      
+
+===== Lab Query 7 =====
+
+EMPL                                                                            
+----                                                                            
+7499                                                                            
+7654                                                                            
+7788                                                                            
+7902                                                                            
+

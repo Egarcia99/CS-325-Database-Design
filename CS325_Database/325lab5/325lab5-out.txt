@@ -1,0 +1,71 @@
+Emilyo Garcia and Jake Freed
+Lab query 1
+
+EMPL_LAST_NAME                                                                  
+---------------                                                                 
+King                                                                            
+
+Lab query 2
+
+EMPL_LAST_NAME  HIREDATE                                                        
+--------------- ---------                                                       
+Michaels        20-FEB-18                                                       
+Ward            22-FEB-19                                                       
+Martin          28-SEP-18                                                       
+Turner          08-SEP-19                                                       
+
+Lab query 3
+
+    SALARY DEPT_NAME                                                            
+---------- ---------------                                                      
+      2975 Research                                                             
+      2850 Sales                                                                
+      2450 Accounting                                                           
+
+lab query 4
+
+JOB_TITLE  MGR                                                                  
+---------- ----                                                                 
+Analyst    7566                                                                 
+Clerk      7782                                                                 
+Manager    7839                                                                 
+Sales      7698                                                                 
+President                                                                       
+Clerk      7902                                                                 
+Clerk      7788                                                                 
+Clerk      7698                                                                 
+
+8 rows selected.
+
+lab query 5
+
+DEP DEPT_NAME       DEPT_LOC                                                    
+--- --------------- ---------------                                             
+100 Accounting      New York                                                    
+200 Research        Dallas                                                      
+400 Operations      Boston                                                      
+500 Management      New York                                                    
+
+lab query 6
+
+EMPL_LAST_NAME  JOB_TITLE      SALARY                                           
+--------------- ---------- ----------                                           
+King            President        5000                                           
+Smith           Clerk             800                                           
+James           Clerk             950                                           
+
+lab query 7
+
+HIREDATE                                                                        
+---------                                                                       
+28-SEP-18                                                                       
+23-SEP-18                                                                       
+
+lab query 8
+
+EMPL_LAST_NAME                                                                  
+---------------                                                                 
+Michaels                                                                        
+Martin                                                                          
+Miller                                                                          
+

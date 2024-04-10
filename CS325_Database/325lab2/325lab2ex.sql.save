@@ -1,0 +1,10 @@
+--Emilyo Garcia
+--09/02/2022
+
+spool 325lab2ex.text
+
+drop table parts;
+create table parts
+(part_num    integer,
+part_name    varchar2(50),
+

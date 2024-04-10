@@ -1,0 +1,26 @@
+Homework 5 Problem 2
+Emilyo Garcia
+===== Problem 2-1 =====
+
+View dropped.
+
+where client.client_fave_cat = movie.category_code
+                               *
+ERROR at line 4:
+ORA-00904: "MOVIE"."CATEGORY_CODE": invalid identifier 
+
+
+===== problem 2-2 =====
+from counter_client_info
+     *
+ERROR at line 2:
+ORA-00942: table or view does not exist 
+
+
+from counter_client_info
+     *
+ERROR at line 2:
+ORA-00942: table or view does not exist 
+
+
+SQL> exit

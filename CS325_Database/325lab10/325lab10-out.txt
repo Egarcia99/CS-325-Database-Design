@@ -1,0 +1,166 @@
+Emilyo Garcia
+===== Lab Query 1 =====
+
+JOB_TITLE  MGR                                                                  
+---------- ----                                                                 
+Clerk      7698                                                                 
+Clerk      7782                                                                 
+Clerk      7788                                                                 
+Clerk      7902                                                                 
+Sales      7698                                                                 
+
+===== Lab Query 2 =====
+
+JOB_TITLE  MGR                                                                  
+---------- ----                                                                 
+Sales      7698                                                                 
+
+===== Lab Query 3 =====
+
+JOB_TITLE  MGR                                                                  
+---------- ----                                                                 
+Clerk      7698                                                                 
+Clerk      7782                                                                 
+Clerk      7788                                                                 
+Clerk      7902                                                                 
+
+===== Lab Query 4 =====
+
+EMPL_LAST_NAME  TWICE_SALARY                                                    
+--------------- ------------                                                    
+Miller                  2600                                                    
+Adams                   2200                                                    
+James                   1900                                                    
+
+===== Lab Query-Set 5 =====
+
+EMPL_LAST_NAME  COMMISSION                                                      
+--------------- ----------                                                      
+Michaels               300                                                      
+Ward                   500                                                      
+Martin                1400                                                      
+Turner                   0                                                      
+
+
+EMPL_LAST_NAME           0                                                      
+--------------- ----------                                                      
+King                     0                                                      
+Jones                    0                                                      
+Blake                    0                                                      
+Raimi                    0                                                      
+Ford                     0                                                      
+Smith                    0                                                      
+Scott                    0                                                      
+Adams                    0                                                      
+James                    0                                                      
+Miller                   0                                                      
+
+10 rows selected.
+
+
+EMPL_LAST_NAME  COMM_VALUE                                                      
+--------------- ----------                                                      
+Martin                1400                                                      
+Ward                   500                                                      
+Michaels               300                                                      
+Adams                    0                                                      
+Blake                    0                                                      
+Ford                     0                                                      
+James                    0                                                      
+Jones                    0                                                      
+King                     0                                                      
+Miller                   0                                                      
+Raimi                    0                                                      
+
+EMPL_LAST_NAME  COMM_VALUE                                                      
+--------------- ----------                                                      
+Scott                    0                                                      
+Smith                    0                                                      
+Turner                   0                                                      
+
+14 rows selected.
+
+===== Lab Query-Set 6 =====
+
+EMPL_LAST_NAME  JOB_TITLE      SALARY                                           
+--------------- ---------- ----------                                           
+King            President        5000                                           
+Ford            Analyst          3000                                           
+Scott           Analyst          3000                                           
+
+
+EMPL_LAST_NAME  JOB_TITLE      SALARY                                           
+--------------- ---------- ----------                                           
+King            President        5000                                           
+Raimi           Manager          2450                                           
+Miller          Clerk            1300                                           
+
+
+EMPL_LAST_NAME  JOB_TITLE      SALARY                                           
+--------------- ---------- ----------                                           
+Miller          Clerk            1300                                           
+Raimi           Manager          2450                                           
+Ford            Analyst          3000                                           
+Scott           Analyst          3000                                           
+King            President        5000                                           
+
+===== Lab Query 7 =====
+
+EMPL_LAST_NAME  JOB_TITLE      SALARY COMMISSION                                
+--------------- ---------- ---------- ----------                                
+Michaels        Sales            1600        300                                
+Ward            Sales            1250        500                                
+Martin          Sales            1250       1400                                
+Turner          Sales            1500          0                                
+
+
+2 rows updated.
+
+
+EMPL_LAST_NAME  JOB_TITLE      SALARY COMMISSION                                
+--------------- ---------- ---------- ----------                                
+King            President        5000                                           
+Jones           Manager          2975                                           
+Blake           Manager          2850                                           
+Raimi           Manager          2450                                           
+Ford            Analyst          3000                                           
+Smith           Clerk             800                                           
+Michaels        Sales            1600        300                                
+Ward            Sales            1250        600                                
+Martin          Sales            1250       1500                                
+Scott           Analyst          3000                                           
+Turner          Sales            1500          0                                
+
+EMPL_LAST_NAME  JOB_TITLE      SALARY COMMISSION                                
+--------------- ---------- ---------- ----------                                
+Adams           Clerk            1100                                           
+James           Clerk             950                                           
+Miller          Clerk            1300                                           
+
+14 rows selected.
+
+===== Lab Query 8 =====
+
+3 rows deleted.
+
+
+EMPL_LAST_NAME  JOB_TITLE      SALARY                                           
+--------------- ---------- ----------                                           
+King            President        5000                                           
+Jones           Manager          2975                                           
+Blake           Manager          2850                                           
+Raimi           Manager          2450                                           
+Ford            Analyst          3000                                           
+Michaels        Sales            1600                                           
+Ward            Sales            1250                                           
+Martin          Sales            1250                                           
+Scott           Analyst          3000                                           
+Turner          Sales            1500                                           
+Miller          Clerk            1300                                           
+
+11 rows selected.
+
+===== Lab Query 9 =====
+
+Rollback complete.
+

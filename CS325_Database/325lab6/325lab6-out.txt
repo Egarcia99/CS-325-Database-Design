@@ -1,0 +1,178 @@
+Emilyo Garcia and Evan Putnam
+===== Lab Query 1 =====
+
+DEPT_NAME       LOCATION                                                        
+--------------- ---------------                                                 
+Accounting      New York                                                        
+Research        Dallas                                                          
+Sales           Chicago                                                         
+Operations      Boston                                                          
+Management      New York                                                        
+
+===== Lab Query 2 =====
+
+Last Name       Hired     Job Title                                             
+--------------- --------- ----------                                            
+King            17-NOV-11 President                                             
+Jones           02-APR-12 Manager                                               
+Blake           01-MAY-13 Manager                                               
+Raimi           09-JUN-12 Manager                                               
+Ford            03-DEC-12 Analyst                                               
+Smith           17-DEC-12 Clerk                                                 
+Michaels        20-FEB-18 Sales                                                 
+Ward            22-FEB-19 Sales                                                 
+Martin          28-SEP-18 Sales                                                 
+Scott           09-NOV-18 Analyst                                               
+Turner          08-SEP-19 Sales                                                 
+
+Last Name       Hired     Job Title                                             
+--------------- --------- ----------                                            
+Adams           23-SEP-18 Clerk                                                 
+James           03-DEC-17 Clerk                                                 
+Miller          23-JAN-16 Clerk                                                 
+
+14 rows selected.
+
+===== Lab Query 3 =====
+
+EMPL_LAST_NAME  HIREDATE  H PLUS 3                                              
+--------------- --------- ---------                                             
+King            17-NOV-11 20-NOV-11                                             
+Jones           02-APR-12 05-APR-12                                             
+Blake           01-MAY-13 04-MAY-13                                             
+Raimi           09-JUN-12 12-JUN-12                                             
+Ford            03-DEC-12 06-DEC-12                                             
+Smith           17-DEC-12 20-DEC-12                                             
+Michaels        20-FEB-18 23-FEB-18                                             
+Ward            22-FEB-19 25-FEB-19                                             
+Martin          28-SEP-18 01-OCT-18                                             
+Scott           09-NOV-18 12-NOV-18                                             
+Turner          08-SEP-19 11-SEP-19                                             
+
+EMPL_LAST_NAME  HIREDATE  H PLUS 3                                              
+--------------- --------- ---------                                             
+Adams           23-SEP-18 26-SEP-18                                             
+James           03-DEC-17 06-DEC-17                                             
+Miller          23-JAN-16 26-JAN-16                                             
+
+14 rows selected.
+
+===== Lab Query 4 =====
+
+JOB_TITLE  COMMISSION   PLUS 20%                                                
+---------- ---------- ----------                                                
+President                                                                       
+Manager                                                                         
+Manager                                                                         
+Manager                                                                         
+Analyst                                                                         
+Clerk                                                                           
+Sales             300        360                                                
+Sales             500        600                                                
+Sales            1400       1680                                                
+Analyst                                                                         
+Sales               0          0                                                
+
+JOB_TITLE  COMMISSION   PLUS 20%                                                
+---------- ---------- ----------                                                
+Clerk                                                                           
+Clerk                                                                           
+Clerk                                                                           
+
+14 rows selected.
+
+===== Lab Query 5 =====
+
+JOB_TITLE  COMMISSION   PLUS 20%                                                
+---------- ---------- ----------                                                
+Sales             300        360                                                
+Sales             500        600                                                
+Sales            1400       1680                                                
+Sales               0          0                                                
+
+===== Lab Query 6 =====
+
+CUST_LNAME           EMPL_LAST_NAME                                             
+-------------------- ---------------                                            
+Firstly              Michaels                                                   
+Secondly             Martin                                                     
+Thirdly              Michaels                                                   
+
+===== Lab Query 7 =====
+
+EMPL_LAST_NAME  DEPT_LOC                                                        
+--------------- ---------------                                                 
+King            New York                                                        
+Jones           Dallas                                                          
+Blake           Chicago                                                         
+Raimi           New York                                                        
+Ford            Dallas                                                          
+Smith           Dallas                                                          
+Michaels        Chicago                                                         
+Ward            Chicago                                                         
+Martin          Chicago                                                         
+Scott           Dallas                                                          
+Turner          Chicago                                                         
+
+EMPL_LAST_NAME  DEPT_LOC                                                        
+--------------- ---------------                                                 
+Adams           Boston                                                          
+James           Chicago                                                         
+Miller          New York                                                        
+
+14 rows selected.
+
+===== Lab Query 8 =====
+
+EMPL_LAST_NAME  DEP DEPT_NAME                                                   
+--------------- --- ---------------                                             
+King            500 Management                                                  
+Jones           200 Research                                                    
+Blake           300 Sales                                                       
+Raimi           100 Accounting                                                  
+Ford            200 Research                                                    
+Smith           200 Research                                                    
+Michaels        300 Sales                                                       
+Ward            300 Sales                                                       
+Martin          300 Sales                                                       
+Scott           200 Research                                                    
+Turner          300 Sales                                                       
+
+EMPL_LAST_NAME  DEP DEPT_NAME                                                   
+--------------- --- ---------------                                             
+Adams           400 Operations                                                  
+James           300 Sales                                                       
+Miller          100 Accounting                                                  
+
+14 rows selected.
+
+===== Lab Query 9 =====
+
+# Salary > 2000                                                                 
+---------------                                                                 
+              6                                                                 
+
+===== Lab Query 10 =====
+
+Earliest  Latest                                                                
+--------- ---------                                                             
+17-DEC-12 23-SEP-18                                                             
+
+===== Lab Query 11 =====
+
+  COUNT(*) SUM(COMMISSION) AVG(COMMISSION)                                      
+---------- --------------- ---------------                                      
+         4            2200             550                                      
+
+===== Lab Query 12 =====
+
+  Num-Empl Non-Null-Num-Comm Non-Null-Num-Mgr                                   
+---------- ----------------- ----------------                                   
+        14                 4               13                                   
+
+===== Lab Query 13 =====
+
+MIN(HIRED                                                                       
+---------                                                                       
+17-DEC-12                                                                       
+
